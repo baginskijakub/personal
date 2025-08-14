@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import { Block } from "./_components";
+import { Block, Links } from "./_components";
 
 export default function Home() {
   return (
@@ -10,13 +10,18 @@ export default function Home() {
         <Block.Side>About</Block.Side>
 
         <Block.Content>
-          I’m a Polish software engineer and designer. I’m passionate about
-          crafting outstanding digital experiences. I’m currently living in
-          Aarhus, Denmark with my girlfriend and two cats. In my spare time, I
-          enjoy tinkering with software, like building side project or component
-          libraries that will never see daylight. I love trying out new
-          programming languages, vim plugins and steaks which I tend to eat
-          hundreds of.
+          <p>
+            I’m a Polish software engineer working at the intersection of design
+            & technology.
+          </p>
+
+          <p>
+            I’m currently living in Aarhus, Denmark with my girlfriend and two
+            cats. In my spare time, I enjoy tinkering with software, like
+            building side project or component libraries that will never see
+            daylight. I love trying out new programming languages, vim plugins
+            and steaks which I tend to eat hundreds of.
+          </p>
         </Block.Content>
       </Block.Root>
 
@@ -32,10 +37,10 @@ export default function Home() {
           <p>
             In addition to that, I’m always building something as a side gig.
             Currently, together with a dear friend of mine we are building
-            Ophelia, an applicant tracking system that includes generating
-            custom job posting pages. The idea is to make this tool minimal so
-            users can very quickly setup a job posting and share it on their
-            Twitter, Linkedin or other channels.
+            <i> Ophelia</i>, an applicant tracking system that includes
+            generating custom job posting pages. The idea is to make this tool
+            minimal so users can very quickly setup a job posting and share it
+            on their Twitter, Linkedin or other channels.
           </p>
         </Block.Content>
       </Block.Root>
@@ -90,7 +95,9 @@ export default function Home() {
       <Block.Root>
         <Block.Side>Info</Block.Side>
 
-        <Block.Content>Contact info</Block.Content>
+        <Block.Content>
+          <Links />
+        </Block.Content>
       </Block.Root>
     </div>
   );
