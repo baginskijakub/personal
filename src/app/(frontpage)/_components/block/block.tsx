@@ -9,7 +9,7 @@ const Side = (props: { children: string }) => {
   return (
     <div className="flex gap-1 py-1">
       <div className="w-4 text-[10px] text-gray-400 font-mono tracking-widest vertical-text text-center">
-        {props.children.toUpperCase().replace("O", "0")}
+        {props.children.toUpperCase().replaceAll("O", "0")}
       </div>
 
       <div className="flex flex-col items-center justify-center h-full text-gray-300">
