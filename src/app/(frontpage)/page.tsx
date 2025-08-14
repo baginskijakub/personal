@@ -3,24 +3,25 @@ import { Block, Links } from "./_components";
 
 export default function Home() {
   return (
-    <div className="mx-auto my-12 max-w-[800px] flex flex-col gap-8">
-      <h1 className="ml-10 font-semibold text-4xl">Hello, I’m Jacob</h1>
+    <div className="mx-auto my-12 px-4 max-w-[800px] flex flex-col gap-12">
+      <h1 className="ml-12 font-semibold text-xl">Jacob Baginski</h1>
 
       <Block.Root>
         <Block.Side>About</Block.Side>
 
         <Block.Content>
           <p>
-            I’m a Polish software engineer working at the intersection of design
-            & technology.
+            I’m a software engineer working at the intersection of design &
+            technology.
           </p>
 
           <p>
             I’m currently living in Aarhus, Denmark with my girlfriend and two
-            cats. In my spare time, I enjoy tinkering with software, like
-            building side project or component libraries that will never see
-            daylight. I love trying out new programming languages, vim plugins
-            and steaks which I tend to eat hundreds of.
+            cats. We moved here from Wroclaw, Poland a couple of years back. In
+            my spare time, I enjoy tinkering with software, like building side
+            projects or random components that will never see the daylight. I
+            love trying out new programming languages, Vim plugins, and steaks
+            which I tend to eat hundreds of.
           </p>
         </Block.Content>
       </Block.Root>
@@ -30,13 +31,13 @@ export default function Home() {
 
         <Block.Content>
           <p>
-            I’m currently working as a software engineer at Whiteaway Group
+            I’m currently working as a software engineer at Whiteaway Group,
             building a large e-commerce solution along with internal tooling.
           </p>
 
           <p>
             In addition to that, I’m always building something as a side gig.
-            Currently, together with a dear friend of mine we are building
+            Currently, together with a dear friend of mine, we are building
             <i> Ophelia</i>, an applicant tracking system that includes
             generating custom job posting pages. The idea is to make this tool
             minimal so users can very quickly setup a job posting and share it
@@ -49,7 +50,7 @@ export default function Home() {
         <Block.Side>Works</Block.Side>
 
         <Block.Content>
-          <p>I’m trying to collect and document my interaction design work.</p>
+          <p>I’m trying to collect and document my design engineering work.</p>
 
           <p>
             You can see it{" "}
@@ -79,9 +80,9 @@ export default function Home() {
 
         <Block.Content>
           <p>
-            I mainly work with frontend technologies so naturally most of my
-            work is done in <i>Typescript</i>. On top of that I’m a big fan of
-            <i> Next.js</i> which I use on daily basis.
+            I mainly work with frontend technologies, so naturally most of my
+            work is done in <i>Typescript</i>. On top of that, I’m a big fan of
+            <i> Next.js</i> which I use on a daily basis.
           </p>
 
           <p>
