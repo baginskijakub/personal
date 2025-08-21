@@ -47,9 +47,11 @@ export default function Home() {
 
       <Video
         url={
-          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZII6lCa1BEPxOf5qa6jpRQNGrwvLiec7n3Xtg4"
+          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZI1Hme1j43KTQGeOfp1V4C7WA8RnydLEIlDoBx"
         }
         title="Search interaction"
+        aspectRatio="638/328"
+        placeholderColor="#FBFBFB"
       />
 
       <Video
@@ -57,6 +59,8 @@ export default function Home() {
           "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZInPQD3zS0zS2CfgX48qF1iblh3KPVamAEpYGN"
         }
         title="Microinteraction in a checkbox"
+        aspectRatio="639/341"
+        placeholderColor="#F6F6F6"
       />
 
       <Link
