@@ -77,6 +77,7 @@ export const Video = (props: VideoProps) => {
           playsInline
           loop
           muted
+          controls
         />
       </div>
     </div>
