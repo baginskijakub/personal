@@ -71,11 +71,10 @@ export const Video = (props: VideoProps) => {
             isolation: "isolate",
           }}
           className=""
-          autoPlay
           playsInline
+          autoPlay
           loop
           muted
-          controls
         />
       </div>
     </div>
