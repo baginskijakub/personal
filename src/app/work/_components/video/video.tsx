@@ -59,27 +59,25 @@ export const Video = (props: VideoProps) => {
           backgroundColor: placeholderColor || "#F3F4F6",
           ...aspectRatioStyle,
         }}
-        className="relative w-full border border-gray-200 rounded-lg overflow-hidden"
+        className="w-full border border-gray-200 rounded-lg overflow-hidden"
       >
-        {shouldLoad && (
-          <video
-            ref={videoRef}
-            src={url}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              opacity: isLoading ? 0 : 1,
-              border: "none",
-            }}
-            className="absolute inset-0"
-            onLoadedData={handleVideoLoad}
-            autoPlay
-            playsInline
-            loop
-            muted
-          />
-        )}
+        <video
+          ref={videoRef}
+          src={url}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            opacity: isLoading ? 0 : 1,
+            isolation: "isolate",
+          }}
+          className=""
+          onLoadedData={handleVideoLoad}
+          autoPlay
+          playsInline
+          loop
+          muted
+        />
       </div>
     </div>
   );
