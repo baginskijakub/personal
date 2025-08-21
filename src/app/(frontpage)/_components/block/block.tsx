@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react";
 import { Arrow } from "./arrow";
 
 const Root = (props: PropsWithChildren) => {
-  return <div className="w-full flex gap-5">{props.children}</div>;
+  return <div className="-ml-12 w-full flex gap-5">{props.children}</div>;
 };
 
 const Side = (props: { children: string }) => {
@@ -23,7 +23,9 @@ const Side = (props: { children: string }) => {
 
 const Content = (props: PropsWithChildren) => {
   return (
-    <div className="text-body flex-1 flex flex-col gap-2">{props.children}</div>
+    <div className="w-full -mr-12 text-body flex flex-col gap-2">
+      {props.children}
+    </div>
   );
 };
 

@@ -33,10 +33,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${lora.variable} antialiased`}
       >
-        {children}
+        <main className="p-3">{children}</main>
 
         <footer className="border-t border-gray-200 p-4">
-          <div className="mx-auto max-w-[800px] flex justify-end">
+          <div className="mx-auto max-w-[640px] flex justify-end">
             <p className="text-gray-400 text-xs">
               © {new Date().getFullYear()} Jacob Baginski
             </p>
