@@ -56,7 +56,7 @@ export const Video = (props: VideoProps) => {
         style={{
           maxWidth: "100%",
           height: "auto",
-          backgroundColor: placeholderColor,
+          backgroundColor: placeholderColor || "#F3F4F6",
           ...aspectRatioStyle,
         }}
         className="relative w-full border border-gray-200 rounded-lg overflow-hidden"
@@ -69,8 +69,10 @@ export const Video = (props: VideoProps) => {
               width: "100%",
               height: "100%",
               objectFit: "cover",
+              opacity: isLoading ? 0 : 1,
+              border: "none",
             }}
-            className={`${isLoading ? "hidden" : "block"}`}
+            className="absolute inset-0"
             onLoadedData={handleVideoLoad}
             autoPlay
             playsInline

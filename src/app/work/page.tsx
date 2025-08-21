@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Video } from "./_components";
 import { ArrowUpLeft } from "lucide-react";
-import { Block, Links } from "../(frontpage)/_components";
 
 export default function Home() {
   return (
@@ -47,7 +46,7 @@ export default function Home() {
 
       <Video
         url={
-          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZI1Hme1j43KTQGeOfp1V4C7WA8RnydLEIlDoBx"
+          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZI8vTJrqFa6qc5XATlhxMoeUwprzD9bYQBOvfd"
         }
         title="Search interaction"
         aspectRatio="638/328"
