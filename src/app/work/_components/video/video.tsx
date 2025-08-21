@@ -68,11 +68,9 @@ export const Video = (props: VideoProps) => {
             width: "100%",
             height: "100%",
             objectFit: "cover",
-            opacity: isLoading ? 0 : 1,
             isolation: "isolate",
           }}
           className=""
-          onLoadedData={handleVideoLoad}
           autoPlay
           playsInline
           loop
