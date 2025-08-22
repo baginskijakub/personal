@@ -37,7 +37,7 @@ export default function Home() {
 
       <Video
         url={
-          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZILVnLk06m14ril5KdEzYRjxGyUJ2etfWSPHX9"
+          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZI9oVmYK2rfLZF1RYvgW9N46M2amcsKCHoIPA7"
         }
         title="Stateful button"
         aspectRatio="16/9"
@@ -46,7 +46,7 @@ export default function Home() {
 
       <Video
         url={
-          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZI8vTJrqFa6qc5XATlhxMoeUwprzD9bYQBOvfd"
+          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZIdb9LtKNRKzNMUA2BTqPn6iOmlwWV4Z8Ip57a"
         }
         title="Search interaction"
         aspectRatio="638/328"
