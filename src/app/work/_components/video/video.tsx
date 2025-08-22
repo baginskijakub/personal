@@ -11,14 +11,9 @@ interface VideoProps {
 
 export const Video = (props: VideoProps) => {
   const { url, title, aspectRatio, placeholderColor } = props;
-  const [isLoading, setIsLoading] = useState(true);
   const [shouldLoad, setShouldLoad] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-
-  const handleVideoLoad = () => {
-    setIsLoading(false);
-  };
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -61,21 +56,23 @@ export const Video = (props: VideoProps) => {
         }}
         className="w-full border border-gray-200 rounded-lg overflow-hidden"
       >
-        <video
-          ref={videoRef}
-          src={url}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            isolation: "isolate",
-          }}
-          className=""
-          playsInline
-          autoPlay
-          loop
-          muted
-        />
+        {shouldLoad && (
+          <video
+            ref={videoRef}
+            src={url}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              isolation: "isolate",
+            }}
+            className=""
+            playsInline
+            autoPlay
+            loop
+            muted
+          />
+        )}
       </div>
     </div>
   );

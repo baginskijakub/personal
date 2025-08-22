@@ -28,7 +28,7 @@ export default function Home() {
 
       <Video
         url={
-          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZIh8cnqj6r7NeLduVbcsJ1kywqUZWmIGfHzSFQ"
+          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZIXm4KfYtPcpNoCYLz0qBfF5JdDexVnmQMsTb7"
         }
         title="Onboarding flow for Ophelia"
         aspectRatio="16/9"
