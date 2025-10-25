@@ -30,7 +30,7 @@ export default function Home() {
         url={
           "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZIJHJUBn1RWeLYUHVusp2kZwvKDG0P5JS3B6i9"
         }
-        title="Bidirectional, selectable table"
+        title="Bidirectionally sortable table"
         aspectRatio="16/9"
         placeholderColor="#FFFFFF"
       />
