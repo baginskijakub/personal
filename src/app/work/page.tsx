@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Video } from "./_components";
+import { Video, Image } from "./_components";
 import { ArrowUpLeft } from "lucide-react";
 
 export default function Home() {
@@ -28,9 +28,25 @@ export default function Home() {
 
       <Video
         url={
+          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZIJHJUBn1RWeLYUHVusp2kZwvKDG0P5JS3B6i9"
+        }
+        title="Bidirectional, selectable table"
+        aspectRatio="16/9"
+        placeholderColor="#FFFFFF"
+      />
+
+      <Image
+        url="https://bm4c4vapik.ufs.sh/f/GphVSedvuVZItVUm2mGarYjisfNSJH1Z5qb96EIcePWADmw8"
+        title="Sidebar for Ophelia"
+        width={640}
+        height={360}
+      />
+
+      <Video
+        url={
           "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZIXm4KfYtPcpNoCYLz0qBfF5JdDexVnmQMsTb7"
         }
-        title="Onboarding flow for Ophelia"
+        title="Onboarding flow"
         aspectRatio="16/9"
         placeholderColor="#F5F6FE"
       />
