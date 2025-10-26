@@ -17,11 +17,11 @@ export default function Home() {
   };
 
   const blockVariants: Variants = {
-    hidden: { opacity: 0, y: 12 }, // Initial state
+    hidden: { opacity: 0, y: 12 },
     visible: {
-      opacity: 1, // Animate to opacity 1
-      y: 0, // Animate to y 0
-      transition: { duration: 0.3, ease: "easeOut" }, // Transition for 'visible' state properties
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.3, ease: "easeOut" },
     },
   };
 
@@ -49,8 +49,9 @@ export default function Home() {
               cats. We moved here from Wroclaw, Poland a couple of years back.
               In my spare time, I enjoy tinkering with software, like building
               side projects or random components that will never see the
-              daylight. I love trying out new programming languages, Vim
-              plugins, and steaks which I tend to eat hundreds of.
+              daylight. I love trying out new developer tools and Vim plugins.
+              I’m big time into cooking as well. Currently, I’m fighting with
+              sourdough bread baking.
             </p>
           </Block.Content>
         </Block.Root>
@@ -67,10 +68,11 @@ export default function Home() {
             <p>
               In addition to that, I’m always building something as a side gig.
               Currently, together with a dear friend of mine, we are building
-              <i> Ophelia</i>, an applicant tracking system that includes
-              generating custom job posting pages. The idea is to make this tool
-              minimal so users can very quickly setup a job posting and share it
-              on their Twitter, Linkedin or other channels.
+              <i> Ophelia</i>, a design system and componenent library builder.
+              The idea is to allow designers and developers to create and
+              maintain design systems without writing any code. Designers would
+              just import the design system into Figma, and developers would get
+              an npm package to use in their projects.
             </p>
           </Block.Content>
         </Block.Root>
