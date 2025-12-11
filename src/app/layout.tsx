@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Lora } from "next/font/google";
 import "./globals.css";
+import { Suspense } from "react";
+import { YearIndicator } from "./_components";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,9 +39,9 @@ export default function RootLayout({
 
         <footer className="border-t border-gray-200 p-4">
           <div className="mx-auto max-w-[640px] flex justify-end">
-            <p className="text-gray-400 text-xs">
-              © {new Date().getFullYear()} Jacob Baginski
-            </p>
+            <Suspense>
+              <YearIndicator />
+            </Suspense>
           </div>
         </footer>
       </body>

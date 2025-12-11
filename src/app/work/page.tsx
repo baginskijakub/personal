@@ -27,9 +27,7 @@ export default function Home() {
       </p>
 
       <Video
-        url={
-          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZIJHJUBn1RWeLYUHVusp2kZwvKDG0P5JS3B6i9"
-        }
+        playbackId="ip6Y5xQUUPw6H7KH01s2C00DMzTDElWf402aPPh1qGmBaw"
         title="Bidirectionally sortable table"
         aspectRatio="16/9"
         placeholderColor="#FFFFFF"
@@ -43,36 +41,28 @@ export default function Home() {
       />
 
       <Video
-        url={
-          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZIXm4KfYtPcpNoCYLz0qBfF5JdDexVnmQMsTb7"
-        }
+        playbackId="018EkXcMLP016kp02nUyOMTrzYOeTA4br01Cb67dCt02KfDE"
         title="Onboarding flow"
         aspectRatio="16/9"
         placeholderColor="#F5F6FE"
       />
 
       <Video
-        url={
-          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZI9oVmYK2rfLZF1RYvgW9N46M2amcsKCHoIPA7"
-        }
+        playbackId="oWZP8nHnDz029MSo01626fGazI4XUkaC5mFSJ7AAQhgm4"
         title="Stateful button"
         aspectRatio="16/9"
         placeholderColor="#F1F1F6"
       />
 
       <Video
-        url={
-          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZIdb9LtKNRKzNMUA2BTqPn6iOmlwWV4Z8Ip57a"
-        }
+        playbackId="MG8uN02gdP7iW4xcmGmniNiRNqMGz02wbyzWHM3AWP27U"
         title="Search interaction"
         aspectRatio="638/328"
         placeholderColor="#FBFBFB"
       />
 
       <Video
-        url={
-          "https://bm4c4vapik.ufs.sh/f/GphVSedvuVZInPQD3zS0zS2CfgX48qF1iblh3KPVamAEpYGN"
-        }
+        playbackId="QZoC02ySXGjKW8P01LYwXCLkxgCbFCmiptq9NKl01ctDeg"
         title="Microinteraction in a checkbox"
         aspectRatio="639/341"
         placeholderColor="#F6F6F6"

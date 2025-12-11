@@ -1,18 +1,18 @@
 "use client";
 
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
+import MuxVideo from "@mux/mux-video-react";
 
 interface VideoProps {
-  url: string;
+  playbackId: string;
   title: string;
   aspectRatio?: string;
   placeholderColor?: string;
 }
 
 export const Video = (props: VideoProps) => {
-  const { url, title, aspectRatio, placeholderColor } = props;
+  const { playbackId, title, aspectRatio, placeholderColor } = props;
   const [shouldLoad, setShouldLoad] = useState(false);
-  const videoRef = useRef<HTMLVideoElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -56,21 +56,28 @@ export const Video = (props: VideoProps) => {
         }}
         className="w-full border border-gray-200 rounded-lg overflow-hidden"
       >
-        {shouldLoad && (
-          <video
-            ref={videoRef}
-            src={url}
+        {shouldLoad ? (
+          <MuxVideo
+            playbackId={playbackId}
+            poster={`https://image.mux.com/${playbackId}/thumbnail.webp?time=0`}
             style={{
               width: "100%",
               height: "100%",
               objectFit: "cover",
               isolation: "isolate",
             }}
-            className=""
             playsInline
             autoPlay
             loop
             muted
+          />
+        ) : (
+          <div
+            style={{
+              width: "100%",
+              minHeight: "150px",
+              ...aspectRatioStyle,
+            }}
           />
         )}
       </div>
