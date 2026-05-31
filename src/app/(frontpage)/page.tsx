@@ -45,13 +45,12 @@ export default function Home() {
               technology.
             </p>
             <p>
-              I’m currently living in Aarhus, Denmark with my girlfriend and two
-              cats. We moved here from Wroclaw, Poland a couple of years back.
-              In my spare time, I enjoy tinkering with software, like building
-              side projects or random components that will never see the
-              daylight. I love trying out new developer tools and Vim plugins.
-              I’m big time into cooking as well. Currently, I’m fighting with
-              sourdough bread baking.
+              I’m currently living in Wroclaw, Poland with my girlfriend and two
+              cats. In my spare time, I enjoy tinkering with software, like
+              building side projects or random components that will never see
+              the daylight. I love trying out new developer tools and Vim
+              plugins. I’m big time into cooking as well. Currently, I’m
+              fighting with sourdough bread baking.
             </p>
           </Block.Content>
         </Block.Root>
@@ -62,17 +61,9 @@ export default function Home() {
           <Block.Side>Now</Block.Side>
           <Block.Content>
             <p>
-              I’m currently working as a software engineer at Whiteaway Group,
-              building a large e-commerce solution along with internal tooling.
-            </p>
-            <p>
-              In addition to that, I’m always building something as a side gig.
-              Currently, together with a dear friend of mine, we are building
-              <i> Ophelia</i>, a design system and componenent library builder.
-              The idea is to allow designers and developers to create and
-              maintain design systems without writing any code. Designers would
-              just import the design system into Figma, and developers would get
-              an npm package to use in their projects.
+              I’m currently working as a software engineer at Commerce-UI,
+              building gorgeous e-commerce solutions for brands such as Lady
+              Gaga, Carhartt WIP or Magda Butrym.
             </p>
           </Block.Content>
         </Block.Root>
@@ -117,11 +108,6 @@ export default function Home() {
               work is done in <i>Typescript</i>. On top of that, I’m a big fan
               of
               <i> Next.js</i> which I use on a daily basis.
-            </p>
-            <p>
-              When it comes to other programming languages, I’ve had a chance to
-              work with <i>Go</i> once, and I liked it a lot, especially the
-              concurrency model.
             </p>
           </Block.Content>
         </Block.Root>
